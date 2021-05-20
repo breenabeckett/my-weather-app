@@ -19,7 +19,7 @@ function formatDate(date) {
     "Saturday",
   ];
   let day = days[dayIndex];
-  return `${days[dayIndex]} ${hours}:${minutes}.`;
+  return `${days[dayIndex]} ${hours}:${minutes}`;
 }
 
 function displayWeatherCondition(response) {
