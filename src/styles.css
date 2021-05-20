@@ -22,7 +22,6 @@ p {
   color: #0c4b6b;
   font-size: 24px;
 }
-
 #date {
   color: #0c4b6b;
 }
@@ -47,7 +46,6 @@ p {
   max-width: 1000px;
   margin: 30px auto;
   padding: 10px;
-  border-radius: ;
 }
 .weather-pic {
   font-size: 40px;
