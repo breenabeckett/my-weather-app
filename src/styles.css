@@ -29,26 +29,29 @@ p {
 .card {
   background-color: #abd3ec;
 }
-.day {
-  font-size: 16px;
-  color: #255d7e;
-}
-.weather-pic {
-  font-size: 40px;
-}
-
-.weekday {
-  color: #255d7e;
-}
 .date {
   bottom: 0;
   right: 0;
   position: fixed;
+}
+.day {
+  font-size: 16px;
+  color: #255d7e;
+}
+.temperature {
+  font-size: 22px;
+  text-align: center;
 }
 .weather-app {
   border: 1px solid #255d7e;
   max-width: 1000px;
   margin: 30px auto;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: ;
+}
+.weather-pic {
+  font-size: 40px;
+}
+.weekday {
+  color: #255d7e;
 }
