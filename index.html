@@ -61,17 +61,19 @@
          </ul>
    <div class="row">
     <div class="col-6">
-      
+      <div class="clearfix weather-temperature">
 <img 
       src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
       alt="Clear"
+      class="float-left"
     />
-        
+    <div class="float-left">
 <span class="temperature" id="temperature"></span>
-           <span class="units">°C | °F</span>
-        
-    
-     
+           <span class="units">
+             °C | <a href="#">°F</a>
+            </span>
+           </div>
+        </div> 
   </div>
   <div class="col-6">
     <ul>
@@ -164,11 +166,12 @@ Wind: <span id="wind"></span>km/h
         </div>
         </div>
         
-<p>
-  <a href="https://github.com/breenabeckett/my-weather-app">
+
+    </div>
+    <p>
+  <a class="codesource" href="https://github.com/breenabeckett/my-weather-app">
     Open-source code</a>
      by Breena Beckett</p>
-    </div>
     </div>
     <script src="src/index.js">
     </script>
