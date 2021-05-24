@@ -3,20 +3,29 @@ body {
   background-color: #c1e6ff;
   padding: 20px;
 }
-
+h1 {
+  margin-bottom: 0;
+}
 img {
   display: block;
   margin: 0 auto;
 }
-h1 {
-  color: #0c4b6b;
-}
+
 form {
   color: #0c4b6b;
 }
 p {
   color: #0c4b6b;
   text-align: center;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 #city {
   color: #0c4b6b;
