@@ -19,7 +19,7 @@ function formatDate(date) {
     "Saturday",
   ];
   let day = days[dayIndex];
-  return `${days[dayIndex]} ${hours}:${minutes}`;
+  return `Last updated: ${days[dayIndex]} at ${hours}:${minutes}`;
 }
 
 function displayWeatherCondition(response) {
@@ -57,12 +57,16 @@ function getCurrentLocation(event) {
   event.preventDefault();
   navigator.geolocation.getCurrentPosition(searchLocation);
 }
+//
 
 function convertToFahrenheit(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");
   temperatureElement.innerHTML = 66;
 }
+
+let fahrenheitLink = document.querySelector("#fahrenheit-link");
+
 function convertToCelsius(event) {
   event.preventDefault();
   let temperatureElement = document.querySelector("#temperature");

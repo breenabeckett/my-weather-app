@@ -31,6 +31,9 @@ ul {
   margin: 0;
   padding: 0;
 }
+a {
+  text-decoration: none;
+}
 
 #city {
   color: #0c4b6b;
